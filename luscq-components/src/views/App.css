@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+:root {
+  --Primary: #f55265;
+  --darkForeground: #1e2732;
+  --darkBackground: #161f29;
+  --Foreground: #FFF;
+  --Radius: 5px;
+  --Spacing: 15px;
+  --primaryFont: "Roboto";
+
+  font-size: 62.5%; /* Not sure if we should not use DP related stuff. */
+}
+
+
+
+.App {
+  background-color: var(--darkBackground);
+  padding: var(--Spacing);
+  font-family: var(--primaryFont), sans-serif;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+.App-container {
+  min-height: 100vh;
+  color: var(--Foreground);
+}
+
+
+.stacked *+* {
+  margin-bottom: var(--Spacing);
+}
+ 
+.unstack *+* {
+  margin-bottom: 5px;
+}
