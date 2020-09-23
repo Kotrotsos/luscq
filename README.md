@@ -30,6 +30,25 @@ So App.js contains most of the component examples.
 
 Everything else falls in either `/components` or `/views`
 
+### Variables
+
+```
+:root {
+  --Primary: #f55265;
+  --darkForeground: #1e2732;
+  --darkBackground: #161f29;
+  --Foreground: #FFF;
+  --Outline: #444;
+  --Radius: 5px;
+  --Spacing: 15px;
+  --primaryFont: "Roboto";
+}
+```
+
+--darkBackground is the background color of the app. --darkForeground is a bit of a lighter variant, intended to be used as a level closer to the screen (like a panel) or as background of a form field
+
+--Primary is the bright reddish/orange color. Mostly used for buttons and warnings
+
 
 ### Typography
 
