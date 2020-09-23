@@ -1,0 +1,41 @@
+
+
+.button {
+  display: block;
+  background-color: var(--Primary);
+  padding: 1rem 3rem;
+  border-radius: var(--Radius);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  max-width:200px;
+  text-align: center;
+}
+
+.button-secondary {
+  background-color: var(--darkForeground);
+}
+
+.button-outline {
+  font-weight: normal;
+  background-color: transparent;
+  border: solid var(--Outline) 1px;
+}
+
+.button-transparent {
+background-color: transparent;
+color: var(--Foreground)
+}
+
+.as-link {
+  font-weight: normal;
+  text-decoration: underline;
+  color: var(--Primary);
+}
+
+ .button:hover {
+  transform: translate(0, 1px);
+ }
+
+ 

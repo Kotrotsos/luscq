@@ -1,0 +1,36 @@
+input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.formField input {
+  background-color: var(--darkForeground);
+  padding: 10px 40px 10px 10px;
+  border-radius: var(--Radius);
+  color: var(--Foreground);
+  margin-bottom: 10px;
+}
+
+.formField .icon {
+  position: absolute;
+  left: 30px;
+  color: gray;
+  line-height: 2.5;
+}
+
+.formField.has-icon input {
+  padding: 10px 10px 10px 40px;
+}
+
+.formField.has-error input {
+  background-color: var(--Primary);
+}
+
+.formField .errorMessage {
+  color: var(--Primary);
+  font-size: 1.2rem;
+  line-height: 1;
+  margin-bottom: 10px;
+}

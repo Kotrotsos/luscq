@@ -2,13 +2,12 @@ import React from 'react';
 
 import './Button.css';
 
-function Button() {
+function Button(props) {
+  let flow = props.flow? props.flow : '';
   return (
-    <div className="lButton">
-       
-      Hi
-    
-    </div>
+    <button className={'button button-' + props.type + ' ' + flow }>
+      {props.label} 
+    </button>
   );
 }
 

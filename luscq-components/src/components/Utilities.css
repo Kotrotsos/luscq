@@ -1,0 +1,21 @@
+
+
+
+
+.spacer-10, .spacer-20 {
+  display: block;
+}
+.spacer-10 {
+  height: 10px;
+}
+.spacer-20 {
+  height: 20px;
+}
+
+
+.block {
+  display: block;
+}
+.inline {
+  display: inline-block;
+}
