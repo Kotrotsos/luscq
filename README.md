@@ -50,8 +50,16 @@ Everything else falls in either `/components` or `/views`
 --Primary is the bright reddish/orange color. Mostly used for buttons and warnings
 
 
-### Typography
 
-### Buttons
+### Using React Native and Nativebase.io
 
-### Input fields
+From what I can see, a lot of components are already available as a React Native and
+nativebase.io component. So just use this library as a reference and use those components instead.
+
+For instance,
+
+Switch: https://reactnative.dev/docs/switch.html
+Segment Control:  https://docs.nativebase.io/Components.html#search-bar-headref
+
+And of course Button, Text etc. 
+

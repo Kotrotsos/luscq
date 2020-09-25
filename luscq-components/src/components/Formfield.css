@@ -27,6 +27,13 @@ input {
 .formField.has-error input {
   background-color: var(--Primary);
 }
+.formField.centered {
+  position: relative;
+  text-align: center;
+}
+.formField.centered .icon {
+  position: relative;
+}
 
 .formField .errorMessage {
   color: var(--Primary);

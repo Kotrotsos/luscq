@@ -38,4 +38,13 @@ color: var(--Foreground)
   transform: translate(0, 1px);
  }
 
- 
+ .button:visited {
+   color: var(--Foreground);
+ }
+ .button-transparent:visited {
+   color: var(--Foreground)
+ }
+ .button-center {
+  text-align: center;
+  margin:auto;
+ }

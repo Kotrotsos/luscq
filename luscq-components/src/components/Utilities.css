@@ -19,3 +19,8 @@
 .inline {
   display: inline-block;
 }
+
+.align-center {
+ text-align: center;
+ margin:auto;
+}
